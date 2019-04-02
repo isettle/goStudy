@@ -7,8 +7,6 @@ import (
 )
 
 func main() {
-	// 简单引擎
-	// simpleEngine := engine.SimpleEngine{}
 	// 并发引擎
 	ce := engine.ConcurrentEngine{
 		WorkerNum: 100,
